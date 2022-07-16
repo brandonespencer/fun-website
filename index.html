@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Brandon E Spencer</title>
+
+  <script defer src="script/script.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="" data-version-number="3.0" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">About</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Projects</a>
+        </li>
+        
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <!-- <h1 onclick="alert('HTML alert')"> -->
+      <h1>
+        Hey!, Im Brandon 
+        <!-- Green highlight effect -->
+        
+        <br>
+        <span class="highlight">Web</span>
+        Developer 
+      </h1>
+
+      <button class="btn--text btn--scroll-to">About me &DownArrow;</button>
+      <img src="img/stuffs.jpg" class="header__img" alt="Minimalist items" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Hi!</h2>
+      <h3 class="section__header">
+        <h4>My Name is Brandon Spencer I’m a self-taught Software Engineer and made the transition from my previous career to tech in 2019. <br> 
+
+       
+          
+          I’ve had the pleasure of working alongside some incredible engineers, designers, business analysts, and product owners. I’m extremely passionate about code standards, ECMAScript, and reactive Javascript frameworks 
+       
+          
+          </h4>
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Skill 1
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Skill 2
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Skill 3
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Web Development
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Blockchains
+        </h5>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Machine Learning
+        </h5>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Projects</h2>
+      <h3 class="section__header">
+        Some of my work.
+      </h3>
+
+      I stay pretty active when it comes to extra-curricular projects. Whether that means contributing to an open source project, working on a passion project, or building a website/web app for a freelance client.
+
+
+    </div>
+
+    <div class="features">
+      <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Eastbay Limo</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+          sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+          debitis ducimus.
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-trending-up"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">FS Charms</h5>
+        <p>
+          Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+          inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+          quibusdam!
+        </p>
+      </div>
+      <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+
+      <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-credit-card"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Project 3</h5>
+        <p>
+          Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+          eveniet consequatur odit quam quos possimus assumenda dicta fuga
+          inventore ab.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div>
+  <h1>Have an Idea? Let's Build it.</h1>
+  <br>
+
+<h2>Feel free to reach out if you’re in need of a Developer. <br>
+  Whether that means you need a website, web app, or you’re looking to fill a full-time position. I’m always open to a conversation.</h2>
+  
+
+</div>
+
+<footer class="footer">
+    <ul class="footer__nav">
+      < <a target="_blank" href="https://www.instagram.com/brandonespencer/">
+        <img src="img/instagram.png">
+       
+      </a>
+        <li class="footer__item">
+      </li>
+      <a target="_blank" href="https://www.github.com/brandonespencer/">
+        <img src="img/github.png">
+       </a>
+       <br>
+      <li class="footer__item">
+        <a target="_blank" href="https://www.linkedin.com/brandonspencer/">
+          <img src="img/linkedin.png">
+         </a>
+      </li>
+      <li class="footer__item">
+        <a target="_blank" href="https://www.twitter.com/brandonespencer/">
+          <img src="img/twitter.png">
+         </a>
+      </li>
+      <li class="footer__item">
+        <a target="_blank" href="https://www.twitter.com/brandonespencer/">
+          <img src="img/twitter.png">
+         </a>
+      </li>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Will reply within <br />
+      <span class="highlight">a day</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
